@@ -1,5 +1,5 @@
 trigger UpdateBookAuthors on BookAuthorAssociation__c (after insert, after update, after Undelete, after delete) {
-    
+    /*
     List<BookAuthorAssociation__c> tr;
 
     if(Trigger.isAfter && (Trigger.isInsert || Trigger.isUpdate || Trigger.isUnDelete)) {
@@ -29,5 +29,5 @@ trigger UpdateBookAuthors on BookAuthorAssociation__c (after insert, after updat
             
             update book;
         }
-    }
+    }*/
 }
