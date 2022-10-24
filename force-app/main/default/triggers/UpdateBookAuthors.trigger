@@ -1,5 +1,10 @@
-trigger UpdateBookAuthors on BookAuthorAssociation__c (after insert, after update, after Undelete, after delete) {
-    /*
+trigger UpdateBookAuthors on BookAuthorAssociation__c(
+  after insert,
+  after update,
+  after undelete,
+  after delete
+) {
+  /*
     List<BookAuthorAssociation__c> tr;
 
     if(Trigger.isAfter && (Trigger.isInsert || Trigger.isUpdate || Trigger.isUnDelete)) {
